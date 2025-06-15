@@ -34,9 +34,17 @@ The following STRETCH features are implemented:
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='[Video Demo](https://i.imgur.com/oXdQz9z.gif)' title='Video Demo' width='' alt='Video Demo' />
+<div>
+    <a href="https://www.loom.com/share/338b2784eb494a2eb0430a6c7f83d97b">
+      <p>Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/338b2784eb494a2eb0430a6c7f83d97b">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/338b2784eb494a2eb0430a6c7f83d97b-a316a1372776b22f-full-play.gif">
+    </a>
+  </div>
 
-GIF created with **ScreenToGif**
+
+GIF created with **LOOM**
 
 <!-- Recommended tools:
 - [Kap](https://getkap.co/) for macOS
