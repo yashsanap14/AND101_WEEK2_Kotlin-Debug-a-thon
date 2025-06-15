@@ -31,6 +31,11 @@
         <activity android:name=".ui.RandomColorActivity"/>
         <activity android:name=".ui.PrintListActivity"/>
         <activity android:name=".ui.FavoriteNumber"/>
+        <activity
+            android:name=".ui.InspirationalQuoteActivity"
+            android:exported="false"
+            android:label="Inspirational Quote" />
+
     </application>
 
 </manifest>

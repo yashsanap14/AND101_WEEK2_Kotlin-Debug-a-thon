@@ -8,4 +8,16 @@
     <string name="print_list_text">Print List</string>
     <string name="favorite_number_text">Favorite Number</string>
     <string name="click_anywhere">Click anywhere!</string>
+    <string name="your_inspirational_quote_will_appear_here">Your inspirational quote will appear here!</string>
+    <string name="get_new_quote">Get New Quote</string>
+    <string-array name="inspirational_quotes">
+        <item>The only way to do great work is to love what you do. - Steve Jobs</item>
+        <item>Strive not to be a success, but rather to be of value. - Albert Einstein</item>
+        <item>The mind is everything. What you think you become. - Buddha</item>
+        <item>Your time is limited, so don’t waste it living someone else’s life. - Steve Jobs</item>
+        <item>The best way to predict the future is to create it. - Peter Drucker</item>
+        <item>Believe you can and you\'re halfway there. - Theodore Roosevelt</item>
+
+    </string-array>
+
 </resources>

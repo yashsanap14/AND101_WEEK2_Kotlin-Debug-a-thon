@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
     private val challengeFourButton: Button get() = findViewById(R.id.challenge_four)
     private val challengeFiveButton: Button get() = findViewById(R.id.challenge_five)
     private val challengeSixButton: Button get() = findViewById(R.id.challenge_six)
+    private val challengeSevenButton: Button get() = findViewById(R.id.challenge_seven)
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         challengeFourButton.setOnClickListener { launchRandomColorActivity() }
         challengeFiveButton.setOnClickListener { launchPrintListActivity() }
         challengeSixButton.setOnClickListener { launchFavoriteNumberActivity() }
+        challengeSevenButton.setOnClickListener { launchInspirationalQuoteActivity() }
     }
 
     private fun launchHelloWorldActivity() {
@@ -56,6 +58,11 @@ class MainActivity : AppCompatActivity() {
 
     private fun launchFavoriteNumberActivity() {
         val i = Intent(this, FavoriteNumber::class.java)
+        startActivity(i)
+    }
+
+    private fun launchInspirationalQuoteActivity() { // <-- NEW FUNCTION
+        val i = Intent(this, InspirationalQuoteActivity::class.java)
         startActivity(i)
     }
 }
